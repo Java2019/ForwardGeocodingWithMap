@@ -17,6 +17,7 @@ public class GeocoderActivity extends ListActivity {
     private Button bSearch;
     private Geocoder geocoder;
     private List<Address> addresses;
+    private ListView listView;
 
     public View.OnClickListener listener = new View.OnClickListener() {
         @Override
@@ -51,6 +52,7 @@ public class GeocoderActivity extends ListActivity {
 
         text = (EditText)findViewById(R.id.eText);
         bSearch = (Button)findViewById(R.id.bSearch);
+        listView = (ListView)findViewById(android.R.id.list);
 
         geocoder = new Geocoder(getApplicationContext());
 
