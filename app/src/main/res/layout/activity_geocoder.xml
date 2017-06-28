@@ -15,10 +15,9 @@
             android:id="@+id/bSearch"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="Search Geocode"/>
     <ListView
-            android:id="@+id/list"
+            android:id="@android:id/list"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"/>
 </LinearLayout>
